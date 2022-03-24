@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="booking.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/ico" href="note.png" />
+<meta charset="utf-8">
+<title>Booking</title>
+<link rel="stylesheet" href="./css/bootstrap.css">
+<style>
+  .sidenav nav ul li:hover{
+    box-shadow: inset 0 0 0 2px #fff;
+    border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+  <div class="head">
+    <img src="image/train2.jpg" width="1358px" height="80px">
+  </div><br><br>
+
+  <div class="sidenav" style="margin-top: -2.2%;">
+    <nav>
+      <ul class="" style="font-family: sans-serif; color: #fff;">
+        <li><a href="./logout.php" style="color: #fff;">LOGOUT</a></li>
+        <li><a href="contact.html" style="color: #fff;">CONTACT US</a></li>
+        <li><a href="Government facilities.html" style="color: #fff;">GOVERNMENT FACILITIES</a></li>
+        <li><a href="booking.html" style="color: #fff;">BOOKING</a></li>
+        <li><a href="check bill.php" style="color: #fff;">CHECK BOOKING INFO</a></li>
+        <li><a href="Our Services.html" style="color: #fff;">SERVICES</a></li> 
+        <li><a href="aboutus.html" style="color: #fff;">ABOUT</a></li>
+        <li><a class="active" href="./index2.html" style="color: #fff;">HOME</a></li>
+      </ul>
+    </nav>
+  </div><br><br><br><br>
+
+	<form action="booking.php" method="POST">
+		
+        <div class="box">
+			<pre id="a">  
+    Full Name             <input id="text2" type="text" name="FullName" pattern="^[a-zA-Z]+$" maxlength="20" title="Input Letters only" required><br/>
+    UserName              <input id="text3" type="text" name="UserName"required><br>
+   Telephone             <input id="text5" type="text" name="Contact" pattern="^[0-9]+$" maxlength="10" minlength="10" title="ex:0123456789" required><br/> 
+   Destination           <input id="text4" type="text" name="Destination"required><br/>
+           
+        Select Age        <input id="radi1"  type="radio" name="Age" value="adult"required/> Adult   <input id="radi2"  type="radio" name="Age" value="child"required/>Child <br/>
+        Class             <select id="class" name="class"required> <br/>
+                                                              <option value="economy">Economy</option>
+                                                              <option value="first-class">First-class</option>
+                                                              <option value="standerd">Standered</option>
+                                                              </select>
+                                                              
+      Ticket Type       <select id "tickettype" name="TicketType"required> <br/>
+                                                              <option value="Single">Single</option>
+                                                              <option value="Return">Return</option>
+                                                              </select>
+                                                              
+         Date                 <input id="dte" type="date" name="Date"required> <br/>
+	    <input id="btn1" type="submit" name="submit" value="Enter"> <input id="btn2" type="reset" name="cancel" value="Cancel"></pre> 
+		
+		</div>	
+    <h4><marquee id="mtext1" direction="left" bg>NIBM Software Engineer Students 2019</marquee></h4>
+    
+	</form><br><br><br><br>
+	<footer>
+    <div class="footer">
+      <h4>2019- DSE 19.2 All the Rights Reserved. </h4>
+      <h6>last Update : 2021.07.06</h6>
+    </div>
+  </footer>
+</body>
+</html>

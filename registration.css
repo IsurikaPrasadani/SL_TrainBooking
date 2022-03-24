@@ -1,0 +1,175 @@
+body{
+	
+	
+    background-size:100%;
+	background-image:url(image/contact-bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+	
+}
+
+
+.sideNav{
+    width: 250px;
+    height: 200vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    background: bisque;
+    z-index: 2;
+    transition: 0.5s;
+    
+
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+
+
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+form,
+
+
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid #B0C4DE;
+    background:#f2dede;
+    border-radius: 0px 0px 10px 10px;
+    align-content: inherit;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height:auto;
+    
+    
+}
+.btn:hover{
+    background-color: whitesmoke;
+    filter: grayscale(0);
+		transform:scale(0.9);
+    color:aqua;
+    
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.nav
+    {
+       
+        
+     height: 60px;
+       width: 1560px;
+        overflow: hidden;
+        position: relative;
+        top:20px;
+        left: -30px;
+		}
+    
+    .content
+    {
+        position: relative;
+        left: 1000px;
+        font-family:  'Open Sans', sans-serif;
+        font-size: 20;
+        
+       
+    }
+
+h4{
+    color: #FFF;
+ }
+
+    .na
+{
+   height: 500px;
+       width: 1700px;
+        overflow: hidden;
+        position: relative;
+        left: -50px;
+}
+.lab
+{
+
+        position: relative;
+        left: 50px;
+        font-family:  'Open Sans', sans-serif;
+        font-size: 40;
+		color:#FFF;
+}
+
+body footer .footer{
+    text-align: center;
+    color: #fff;
+    background-color: darkblue;
+    margin-bottom: -10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

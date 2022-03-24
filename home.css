@@ -1,0 +1,239 @@
+.sideNav{
+    width: 250px;
+    height: 200vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    background:bisque;
+    z-index: 2;
+    transition: 0.5s;
+    padding: 1.6rem 0;
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkblue;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.sideNav ul li a:hover {
+background-color:whitesmoke;
+color:midnightblue;
+}
+.con:hover {
+    filter: grayscale(0);
+}
+body{
+	
+	background-size:100%;
+	background-color: #D0D0D0;
+	background-image:url(image/image13.1.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    
+    
+	
+}
+
+    .nav
+    {
+       
+        
+     height: 60px;
+       width: 1560px;
+        overflow: hidden;
+        position: relative;
+        top:20px;
+        left: -30px;
+		}
+nav li{
+    display: inline-block;
+
+    position: relative;
+
+}
+
+.sidenav nav ul li:hover{
+    box-shadow: inset 0 0 0 2px #fff;
+    border-radius: 20px;
+}
+
+body footer .footer{
+    text-align: center;
+    color: #fff;
+    background-color: darkblue;
+    margin-bottom: -10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+    
+.content{
+    position: relative;
+    left: 1000px;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 20; 
+    
+}
+		.head
+	{
+		position:inherit;
+			width: 100%;
+	height: 78px;
+	margin-top:-20px;
+	margin-left:-10px;
+	
+	margin: 0,auto;
+	padding-top:8px;
+	border: 1px solid #bbb;
+	
+	opacity:0.9;
+	}
+
+/* Center website */
+.main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    word-break: break-all;
+}
+h3{
+    color: dodgerblue;
+}
+
+h4{
+    color: #FFF;
+}
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 22%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.con {
+    background-color:#FFF;
+    padding: 10px;
+	
+	
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 80%;
+    }
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+  
+.na
+{
+   height: 500px;
+       width: 1700px;
+        overflow: hidden;
+        position: relative;
+        left: -50px;
+}
+.lab
+{
+
+    position: relative;
+    left: 1000px;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 40;
+    color:#FFF;
+}
+ .colum con li a:hover {
+	
+	filter: grayscale(0);
+}
+
+.sidenav nav ul li ul.sub-nav{
+   position: absolute;
+   background: #444759;
+   width: 100%;
+   height: 250px;
+   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14), -1px 0px 1px rgba(0, 0, 0, 0.14);
+   top: 75px;
+   left: 0;
+   visibility: hidden;
+   opacity: 0;
+}
+.sidenav nav ul li ul.sub-nav li{
+    color: #eee;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px 0;
+}
+.sidenav nav ul li ul.sub-nav li:hover{
+    color: #ea3b50;
+    box-shadow: 0 0;
+}
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidenav nav ul li ul:hover, ul.sub-nav{
+    visibility: visible;
+    opacity: 1;
+}

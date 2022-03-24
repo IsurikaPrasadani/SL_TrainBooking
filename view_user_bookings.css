@@ -1,0 +1,248 @@
+.sideNav{
+    width: 250px;
+    height: 200vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    background:bisque;
+    z-index: 2;
+    transition: 0.5s;
+    padding: 1.6rem 0;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkblue;
+}
+
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.con:hover {
+    filter: grayscale(0);
+		transform:scale(1.2);
+}
+body{
+	
+	background-color: #D0D0D0;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    
+}
+
+
+.nav
+{
+   
+    
+ height: 60px;
+   width: 1560px;
+    overflow: hidden;
+    position: relative;
+    top:20px;
+    left: -30px;
+    }
+nav li{
+display: inline-block;
+
+position: relative;
+
+}
+
+/*nav a::before{
+content: "";
+display: block;
+height: 5px;
+background-color: black;
+
+position: absolute;
+top: 0;
+width: 0%;
+}*/
+
+body footer .footer{
+    text-align: center;
+    color: #fff;
+    background-color: darkblue;
+    margin-bottom: -10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+nav a:hover::before {
+width: 100%;
+}
+
+.content
+{
+    position: relative;
+    left: 1000px;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 20;
+    
+    
+   
+}
+    .head
+{
+    position:inherit;
+        width: 100%;
+height: 78px;
+margin-top:-20px;
+margin-left:-10px;
+
+margin: 0,auto;
+padding-top:8px;
+border: 1px solid #bbb;
+
+opacity:0.9;
+}
+
+h4{
+    color: #FFF;
+}
+
+form {
+	margin-top: 10px;
+	width:auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0F3;
+    box-sizing: border-box;
+}
+
+#btn2 {
+    background-color: #f44336;
+	border: none;
+    color: white;
+    padding: 8px 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	margin-left: 43%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 0.2em;
+}
+#btn1{
+	background-color:#5A85C7;
+    border: none;
+    color: white;
+    padding: 8px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	margin-left: 43%;
+	margin-top: 30px;
+	letter-spacing: 0.2em;
+}
+#btn1:hover{
+	background-color:#3737FF;
+	color: white;
+	filter: grayscale(0);
+		transform:scale(1.1);
+}
+#btn2:hover{
+	background-color:#FF2626;
+	color: white;
+	filter: grayscale(0);
+		transform:scale(1.1);
+}
+
+#createacc {
+	background-color:#359337;
+    border: none;
+	width: 16.5%;
+    color: white;
+    padding: 8px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	margin-left: 42.9%;
+	
+}
+#uname,#nic {
+	width: 500px;
+	text-align: center;
+	margin-left: 34.5%;
+	opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+	width: 50%;
+	height: 47%;
+	margin: auto;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 10px 10px 0;
+	width: 60%;
+	height: 50%;
+	margin: auto;
+}
+
+img.avatar {
+	margin-top: 20px;
+    width: 30%;
+    border-radius: 10%;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+#name{
+	font-size: 35pt;
+	margin-left:500px;
+	font-weight:bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: white;
+
+
+}
+.lab
+{
+
+        position: relative;
+        left: 1000px;
+        font-family:  'Open Sans', sans-serif;
+        font-size: 40;
+		color:#FFF;
+}
+ .colum con li a:hover {
+	
+	filter: grayscale(0);
+		transform:scale(1.2);
+}
+
+	
